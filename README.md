@@ -16,5 +16,5 @@ Starts up the application.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Learn More
-Feel free to check out this application deployed [HERE](https://eluo-airport-distance-calculator.netlify.app/)!\
+Feel free to check out this application deployed using Netlify [HERE](https://eluo-airport-distance-calculator.netlify.app/)!\
 ![image](https://github.com/MrAAAgent/airport-distance-calculator/assets/47800038/0f26fc76-d854-4170-a437-23c8c484c0bd)

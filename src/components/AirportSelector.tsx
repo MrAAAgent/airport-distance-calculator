@@ -45,7 +45,7 @@ const AirportAutocomplete: React.FC<AirportAutocompleteProps> = ({airportOptions
         getOptionLabel={(option) => `${option.attributes.NAME} (${option.attributes.FAA_ID}) | ${option.attributes.CITY}, ${option.attributes.STATE}`}
         sx={{ width: '100%' }}
         renderInput={(params) => <TextField {...params} label={inputLabel} />}
-        onChange={(event, newValue) => { console.log(newValue); onAirportSelect(newValue)}}
+        onChange={(event, newValue) => onAirportSelect(newValue)}
         renderOption={(props, option) => (
           <ListItem {...props} key={option.attributes.FAA_ID}>
             {option.attributes.NAME} ({option.attributes.FAA_ID}) | {option.attributes.CITY}, {option.attributes.STATE}
